@@ -1,10 +1,10 @@
-package OpenPokemon.Enums.Effectiveness;
+package src.openPokemon.Enums;
 
 public enum Effectiveness{
     SUPEREFFECTIVE (2),
     NORMAL (1),
-    NOTVERYEFFECTIVE (.5),
-    NOEFFECT (0),
+    NOTVERYEFFECTIVE (.5f),
+    NOEFFECT (0);
 
     public final float modifier;
 

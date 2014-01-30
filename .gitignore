@@ -108,3 +108,4 @@ Backup*/
 UpgradeLog*.XML
 OpenPokemon.sublime-project
 OpenPokemon.sublime-workspace
+/bin
