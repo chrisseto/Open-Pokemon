@@ -1,5 +1,4 @@
-package OpenPokemon.Enums.StatusEffect
-
+package src.OpenPokemon.Enums
 //TODO Double check me
 public enum StatusEffect {
     NORMAL,
