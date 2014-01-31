@@ -7,5 +7,6 @@ public enum StatusEffect {
     POISONED,
     SLEEP,
     PARALYZED,
-    CONFUSED
+    CONFUSED,
+    INFATUATED //This is a status when the pokemon is hit by the move attract
 }
