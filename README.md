@@ -7,7 +7,14 @@ The project will be written in Java to start and later ported to C# for usage in
 
 TODO:
 =====
-* Write a todo list
+* Finish models [Started]
+    - Pokemon
+    - PokemonInfo
+    - Move
+    - Ball
+* Write tests
+* Fill effectiveness getter method
+* Outline general layout ie: make a better todo list
 
 
 Reference:
