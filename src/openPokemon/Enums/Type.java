@@ -20,5 +20,6 @@ public enum Type {
     ROCK,
     DRAGON,
     FIGHTING,
-    FAIRY
+    FAIRY,
+    NONE 
 }

@@ -3,5 +3,5 @@ package openPokemon.Enums;
 public enum Gender {
 	Male,
 	Female,
-	None
+	None //For use in legendaries
 }
