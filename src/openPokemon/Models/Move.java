@@ -1,4 +1,4 @@
-package openPokemon.Models;
+package src.openPokemon.Models;
 
 public abstract class Move {
 
