@@ -6,9 +6,8 @@ import openPokemon.Enums.Nature;
 import openPokemon.Enums.Type;
 
 public abstract class Pokemon {
-	//These should all be final values but also static....
-	public static String Name, Classification;
-	public static int PokedexNumber, StepsToHatch, CatchRate;
+	//This has some work to be done
+	public final static PokemonInfo info = null;
 	public static Map<Integer, Move> MovesByLevelUp;
 	public static Move[] LearnableMoves;
 
