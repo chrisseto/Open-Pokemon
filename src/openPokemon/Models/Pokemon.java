@@ -1,26 +1,14 @@
+// [SublimeLinter javac-lint:all,-deprecation]
 package src.openPokemon.Models;
 
-import java.util.Map;
-
-import src.openPokemon.Enums.Nature;
 import src.openPokemon.Enums.Type;
 
 public abstract class Pokemon {
-	public static String Name, Classification;
-	public static int PokedexNumber,StepsToHatch;
-	public static Map<Integer,Move> MovesByLevelUp;
-	public static Move[] LearnableMoves;
-	
-	
-	
-    private int currentHealth;
-    private Type[] types;
+    private int currentHealth, health;
+    private Type types[];
     private boolean isWild,hasBeenCaught;
-    private int level,health,speed,attack,specialAttack,defence,specialDefence;
-    private Nature nature;
-    private Move[] moves;
-    
-    
+    private int level;
+
     public String serialize()
     {
         //TODO Finish me
