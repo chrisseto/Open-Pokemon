@@ -1,4 +1,4 @@
-package src.openPokemon.Enums;
+package openPokemon.Enums;
 
 //@TODO Finish me
 //Should be finished might be missing one.

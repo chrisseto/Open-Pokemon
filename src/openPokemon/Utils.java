@@ -1,7 +1,7 @@
-package src.openPokemon;
+package openPokemon;
 
-import src.openPokemon.Enums.Effectiveness;
-import src.openPokemon.Enums.Type;
+import openPokemon.Enums.Effectiveness;
+import openPokemon.Enums.Type;
 
 //This file may be expanded into a folder later
 

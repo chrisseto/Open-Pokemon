@@ -1,4 +1,4 @@
-package src.openPokemon.Enums;
+package openPokemon.Enums;
 
 public enum Effectiveness{
     DOUBLESUPEREFFECTIVE (4), //Not sure what to call it, but if there is a double type weakness, for example, Gyarados (W/F)
