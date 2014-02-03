@@ -1,5 +1,7 @@
 package openPokemon;
 
+import java.util.Arrays;
+
 import openPokemon.Enums.Effectiveness;
 import openPokemon.Enums.Type;
 
@@ -7,7 +9,11 @@ import openPokemon.Enums.Type;
 
 public class Utils {
 	public static Effectiveness getEffectiveness(Type attacker, Type defender) {
-		return null;
+		if(Arrays.asList(defender.strong).contains(attacker))
+			return Effectiveness.NOTVERYEFFECTIVE;
+		else if(Arrays.asList(defender.weak).contains(attacker))
+			return Effectiveness.SUPEREFFECTIVE;
+		return Effectiveness.NORMAL;
 		// TODO Finish me
 	}
 
