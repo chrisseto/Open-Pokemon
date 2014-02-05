@@ -4,6 +4,7 @@ package openPokemon.Enums;
 //Should be finished might be missing one.
 //Make weak and strong immutable
 //Can this be done better? Reading from a file maybe?
+//
 public enum Type {
     NORMAL,
     GRASS,
@@ -31,8 +32,9 @@ public enum Type {
     
     static{
     	//Normal
-    	NORMAL.weak = new Type[]{};
+    	NORMAL.weak = new Type[]{}; //FOr example, if fighting does 2x damage to normal, does it go in Normal's weak? Or since Normal does 1/2 damage to Steel, does that go in normal's weak?
     	NORMAL.strong = new Type[]{};
+    	NORMAL.noEffect = new Type[]{GHOST};
     	//Grass
     	GRASS.weak = new Type[]{};
     	GRASS.strong = new Type[]{};
