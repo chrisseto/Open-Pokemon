@@ -25,6 +25,8 @@ public enum Type {
     FAIRY,
     NONE;
     
+    //The given type is defending
+    //ie: normal.weak would have fighting
     public Type[] weak,strong, noEffect; //TODO fill noEffect
     
     static{
